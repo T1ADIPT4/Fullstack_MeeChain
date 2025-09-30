@@ -41,3 +41,11 @@ coverage/
 # Others
 *.tgz
 *.zip
+
+# Large binaries
+*.dylib
+*.dll
+*.so
+*.exe
+*.bin
+docker-scout
