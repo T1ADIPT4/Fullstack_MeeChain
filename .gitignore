@@ -1,46 +1,43 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Build output
+dist/
+build/
+out/
 
-# testing
-/coverage
-
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
+# Environment variables
 .env
+.env.local
+.env.*
 
-# vercel
-.vercel
+# OS-specific
+.DS_Store
+Thumbs.db
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# IDE/editor
+.vscode/
+.idea/
 
-# Unity burst runtime (large binaries)
-*.dll
-*.dylib
-*.so
-*.exe
-*.bin
-.dsymutil
-docker-scout
+# Logs
+*.log
 
+# Smart contract artifacts
+artifacts/
+cache/
+typechain/
+
+# Frontend preview
+.next/
+.vercel/
+
+# Prisma
+prisma/dev.db
+prisma/migrations/
+
+# Test coverage
+coverage/
+
+# Others
+*.tgz
+*.zip
