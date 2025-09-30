@@ -34,3 +34,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Unity burst runtime (large binaries)
+*.dll
+*.dylib
+*.so
+*.exe
+*.bin
+.dsymutil
+docker-scout
+
